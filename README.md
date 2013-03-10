@@ -33,17 +33,18 @@ This version includes a file uploader!
 To upload files, do the following:
 
 ./phpkitcli.py --url http://example.tld/path/to/shell.php --mode UPLOAD --lfile /path/to/local/file --rfile /path/on/server/for/file
+
 This should upload your file to the remote server and save it to the path specified.
 
 Prerequisites:
 You must have the python "requests" module installed.
-On Debian/Ubuntu: sudo apt-get install requests
-On anything else: pip install requests
+- On Debian/Ubuntu: sudo apt-get install requests
+- On anything else: pip install requests
 
 Please send me any bugs :)
 
 - NOTE: if you want a real web backdoor, try Weevely or Webhandler.
-http://github.com/epinna/Weevely
-http://github.com/lnxg33k/webhandler
+- http://github.com/epinna/Weevely
+- http://github.com/lnxg33k/webhandler
 
 
